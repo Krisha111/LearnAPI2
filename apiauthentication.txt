@@ -1,0 +1,31 @@
+Api definition
+International space station tracking
+
+Endpoints
+Query parameter-can be many outputs
+Path parameter-bit this have only one output based on id or unique parameter passed in url
+
+Authentication
+
+0 level authentication- no authentication is requires ,public api but there is rate limit 100 request per min and which is address or user do that request to public api
+
+Basic authentication- giving password and username for authentication 
+It uses base64 encoding
+Our username and password is converted to binary and then to string by base 64 and one alphabet extra is always addd to the final string and the spaces that you provided in username and password will also be calculated and converted to alphabets 
+Go to secrets api and open postman and register your self and ask /all Endpoint to show 1st page and give username and password yo it also
+
+Api key authorization- difference between authentication and authorization 
+Generate apibkey of secret api and then give api key and filter with a query parameter of score 7 and a query parameter of api key
+
+Token based authentication- to access data give your username and password to google and sign in and it will give you a token which u can use to access the api of google calender without giving pwd and username to the calender or any other app directly
+
+First in postman do get the token of secret api
+Then using this token get the data
+
+Fo the exercise
+
+Http is a language which server understand and gives back the response 
+Hyper text transfer protocol
+File transfer protocol ftp
+Https
+
